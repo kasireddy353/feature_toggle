@@ -1,0 +1,39 @@
+<html>
+
+    <head>
+        <style>
+
+            .center {
+                margin: auto;
+                text-align: center;
+                margin-top: 50px
+            }
+
+        </style>
+    </head>
+
+    <body class="center">
+
+        <form action="/thank" method="post" name="featureToggleForm">
+            <div>
+                <h2>Feature Toggle</h2>
+                <input type="text" title="Key Name" name="keyname"/>
+                <h3>Toggle Feature?</h3>
+
+                <div>
+                    <label for="radio_true">True</label>
+                    <input type="radio" id="radio_true" value="true" name="radio_toggle"/>
+
+                    <label for="radio_false">False</label>
+                    <input type="radio" id="radio_false" value="false" name="radio_toggle"/>
+
+                </div>
+
+                <br>
+
+                <button type="submit" value="submit">Toggle</button>
+            </div>
+        </form>
+    </body>
+
+</html>

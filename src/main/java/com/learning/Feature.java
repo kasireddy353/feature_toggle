@@ -1,6 +1,5 @@
 package com.learning;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
@@ -106,16 +105,5 @@ public class Feature {
 
         return Boolean.valueOf(featureValue).booleanValue();
     }
-
-
-
-
-
-
-
-
-
-
-
 
 }
